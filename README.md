@@ -32,5 +32,6 @@ Built with **HTML + CSS + JavaScript (ethers.js)** — lightweight, fast, and 10
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/evm-wallet-generator.git
-   cd evm-wallet-generator
+   git clone https://github.com/alisidik1996/Wallet-EVM-Generator.git
+   cd Wallet-EVM-Generator
+   open index.html on browser
