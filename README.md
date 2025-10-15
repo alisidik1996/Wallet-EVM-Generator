@@ -11,7 +11,7 @@ Built with **HTML + CSS + JavaScript (ethers.js)** — lightweight, fast, and 10
 - 🧩 Display addresses and private keys in a clean, responsive table  
 - 📋 One-click copy for each field  
 - 🗑️ Delete individual rows or clear all data  
-- 💾 Download wallets list as `.txt` or `.csv` (optional to add later)  
+- 💾 Download wallets list as `.json` or `.csv` (optional to add later)  
 - 🔁 Progress bar indicator during generation  
 - ☕ **Buy Me a Coffee (USDT EVM)**: `0x406fe9d8183f0b6b500398cfbab7746558ebfd81`
 
