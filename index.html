@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Batch EVM Wallet Generator v2.0</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <main class="container">
+        <h1>Batch EVM Wallet Generator</h1>
+        <section class="controls">
+            <label>
+                Jumlah wallet baru:
+            <input id="countInput" type="number" min="1" max="2000" value="10" />
+            </label>
+            <label>
+                Sertakan mnemonic?
+            <input id="mnemonicCheckbox" type="checkbox" />
+            </label>
+            <button id="generateBtn" class="btn primary">Generate</button>
+            <button id="clearBtn" class="btn danger">Clear All</button>
+
+      <div class="right-controls">
+        <button id="toggleMaskBtn" class="btn">Mask Private Keys</button>
+        <button id="downloadCsvBtn" class="btn">Download CSV</button>
+        <button id="downloadJsonBtn" class="btn">Download JSON</button>
+        <button id="copyAllBtn" class="btn">Copy All</button>
+      </div>
+    </section>
+
+    <div class="progress-bar">
+      <div id="progress" class="progress"></div>
+    </div>
+
+    <section class="table-wrap">
+      <table id="walletTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Address</th>
+            <th>Private Key</th>
+            <th>Mnemonic</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <footer>
+    <small>Buy me a coffee — USDT (EVM) to 0x406fe9d8183f0b6b500398cfbab7746558ebfd81</small>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
